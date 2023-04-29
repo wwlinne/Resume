@@ -1,2 +1,2 @@
 # Resume
-My first webpage and resume
+My first webpage, resume, and courses I have learned.

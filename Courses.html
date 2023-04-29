@@ -1,0 +1,238 @@
+<!-- 
+    Name: Guohui Wan
+    Date: Feb 20 , 2023
+    Section: CST 8285 section 304
+    Lab: lab 304
+    File: Assignment 1
+    Lab objective: Make 3 html pages of introduction, resume and courses.
+  -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Guohui Wan">
+      <title>Courses</title>
+      <link rel="stylesheet" type="text/css" href="assignment1.css">
+      <script src="assignment.js">
+      </script>
+  
+  </head>
+  <body>
+    <main>
+        <header>
+          <div class="name" id="W">
+            <a  href="#">Guohui Wan</a>
+          </div>
+        </header>
+ <!-- 
+    This is the navigation for our course webpage, and we add a search function here.
+  -->
+        <div class="nav">
+          <nav class="nav">
+            <a class="nav" href="index.html">Homepage</a>
+            <a class="nav" href="Resume.html">Resume</a>
+            <a class="nav" href="Courses.html">Main Courses</a>
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+          
+          </nav>
+        </div>
+<!-- 
+    This is the main part for our webpage.
+  -->
+  
+    <div class="wrapper">
+    <div class="row">
+        <h3 class="intro" id="B">
+        Main Courses
+        </h3>
+        
+        <div class="container">
+            
+          
+          <div class="edu">
+            
+            
+            <div id="courses">
+           <div class="edu">
+            <div class="filterDiv level1">
+              <h2 class="cour" id="java1">CST8116 Introduction to Computer Programming(Java) </h2>
+               <div class="para">
+                  <p>Programming Logic and Design </p> 
+                       <a target="_blank" href="img/logic.png">
+                        <img src="img/logic.png" alt="logic" style="width:150px">
+                        </a>
+                        <p >Learning on Java, Html, Css, Java Script and MySQL courses, with a GPA of 3.9 at the first semester.(Level 1 )</p>
+                 </div>
+               </div>
+           </div>
+              <hr>
+                <div class="edu">
+                  <div class="filterDiv level1">
+                  <h2 class="cour" id="data1">CST8215 Introduction to Database </h2>
+                    <div class="para">
+                       <p>MySQL</p>
+                   
+                     <a target="_blank" href="img/database.png">
+                     <img src="img/database.png" alt="database" style="width:150px">
+                     </a>
+                      <p>Learn the basic concept of Database Processing(Level 1 )</p>
+                     </div>
+                  </div>
+                </div>
+                     <hr>
+                 <div class="edu">
+                  <div class="filterDiv level1">
+                      <h2 class="cour" id="hard1">CST8101 Computer Essentials</h2>
+                    <div class="para">
+                      <p>Computer Organization and Architecture</p>
+                  
+                       <a target="_blank" href="img/essential.png">
+                        <img src="img/essential.png" alt="database" style="width:150px">
+                        </a>
+                      <p>
+                         VMWare Workstation, XAMPP, FileZilla, Microsoft Office (Word, Excel, Outlook)(Level 1 )
+                       </p>
+                     </div> 
+                  </div>
+                 </div>
+                     <hr>
+                     <div class="edu">
+                      <div class="filterDiv level1">
+                      <div class="para">
+                        <h2 class="cour" id="comm1">ENL1813T Communications I </h2>
+                        <p> Learn about the stylistic of tech writing.(Level 1)</p>
+                     </div>
+                    </div>
+                    </div>
+                    <div class="edu">
+                      <div class="filterDiv level1">
+    
+                        <h2 class="cour" id="math1">MAT8001C Technical Mathematics for Computer Science</h2>
+                        <div class="para">
+                        <p>Learn about the binarl, octal, and hexidecimal numbers.(Level 1 )</p>
+                    </div>
+                    </div>
+                    </div>
+                    <hr>
+            <div class="edu">
+             <div class="filterDiv level2">
+              <h2 class="cour" id="web">CST8285 Web Programming</h2>
+                <div class="para">
+                  <p>Learning PHP, My SQL, and JAVA Script</p>
+                 
+                    <a target="_blank" href="img/web.png">
+                      <img src="img/web.png" alt="database" style="width:150px">
+                    </a>
+                    <p>HTML, CSS, JavaScript,PHP, Creation of tables, web pages, forms, 
+                      connecting to databases, encrypting passwords and confidential information(Level 2 )
+                    </p>
+                 </div>  
+             </div>
+            </div>
+                 <hr>
+                 <div class="edu">
+                  <div class="filterDiv level2">
+                  <h2 class="cour" id="java2">CST8284 Object Oriented Programming (Java) </h2>               
+                  <div class="bigjava">
+                    <div class="para">
+                      <p>Big Java</p> 
+                      
+                      <a target="_blank" href="img/Java.png">
+                          <img src="img/Java.png" alt="big java" style="width:150px">
+                      </a>
+                      <p>Core concept of JAVA.(Level 2 )</p>
+                    </div>
+                    </div>
+                  </div>
+                 </div>
+                    <hr>
+            <div class="edu">
+              <div class="filterDiv level2">
+               <h2 class="cour" id="data2">CST2355 Database Systems </h2>
+               <div class="para">
+                   <p>MS SQL and Oracle Server</p>    
+                  <a target="_blank" href="img/database.png">
+                   <img src="img/database.png" alt="database" style="width:150px">
+                   </a>
+                   <p>Learn about the different kinds of Database Sql Server.(Level 2)</p>
+                 </div>
+            </div>
+          </div>
+                 <hr>
+              <div class="edu">
+                <div class="filterDiv level2">
+                  <h2 class="cour" id="hard2">CST8102 Operating System Fundamentals (GNU/Linux) </h2>
+                   <div class="para">
+                    <p>Basic Commands of Linux</p>
+                   
+                    <a target="_blank" href="img/Linux.png">
+                     <img src="img/Linux.png" alt="database" style="width:150px">
+                    </a>
+                     <p>Windows XP, Windows 7, Windows 8, Windows 10, Ubuntu, Linux, Mac OS.(Level 2 )</p>
+                     </div> 
+                </div>
+              </div>  
+                     
+               
+           </div>
+          </div>
+          </div>
+    </div>
+<!-- 
+   here is the side column, inculding the fliter level and other links.
+  -->
+            <div class="coursecol">
+              <div class="position-sticky">
+
+                <h3>Filter Level Elements</h3>
+
+                <div id="myBtnContainer">
+                  <button id="showAll" class="btn active" data-filter="all"  onclick="filterSelection('all',false)"> Show all</button>
+                  <button class="btn" data-filter="level1" onclick="filterSelection('level1',false)"> level1</button>
+                  <button class="btn" data-filter="level2"  onclick="filterSelection('level2',false)"> level2</button>
+                  <button class="btn" data-filter="all" onclick="filterSelection('all',false)"> From Lower to Higher</button>
+                  <button class="btn" data-filter="all" onclick="filterSelection('all',true)" data-reverse="true">From Higher to Lower</button>
+                </div>
+                <div class="side">
+                  <h3 class="edu">About Me</h3>
+                  <p class="para">As a programmer, I am highly motivated to pursue my passion for coding 
+                    and realize my dream of contributing to the construction of the world through my unique female perspective.</p>
+                </div>
+        
+                <div class="side">
+                  <h3 class="edu">Archives</h3>
+                  <ol class="stickside">
+                    <li><a href="index.html">Introduction</a></li>
+                    <li><a href="Resume.html">Education</a></li>
+                    <li><a href="index.html">Hobbies</a></li>
+                    <li><a href="Resume.html">Resume</a></li>
+                    <li><a href="#W">Main Courses</a></li>
+
+                  </ol>
+                </div>
+        
+                <div class="side">
+                  <h4 class="edu">Elsewhere</h4>
+                  <ol class="stickside">
+                    <li><a href="https://www.linkedin.com/in/guohui-wan-6b4828252/">Linkedin</a></li>
+                    <li><a href="https://github.com/wwlinne">GitHub</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCIX0TE5zj0-UomeGysK95sA">Youtube</a></li>
+                    <li><a href="http://localhost/Assignment2/index.php">PhotoBook</a></li>
+
+                  </ol>
+                </div>
+              </div>
+            </div>
+    </div>
+          
+   </main>
+          <footer class="footer">
+            <p>Built By <a href="#"></a> by <a href="#">Guohui Wan</a>.</p>
+            <p>
+              <a href="#W">Back to top</a>
+            </p>
+          </footer>
+
+</body>
+</html>

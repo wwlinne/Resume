@@ -1,2 +1,2 @@
 # Resume
-My first webpage, resume, and courses I have learned.
+My first repo includes three components: my introduction, resume, and main courses I have taken.
